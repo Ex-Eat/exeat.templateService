@@ -6,7 +6,7 @@ name: CI - Main - Build, Tests & Docker
 on:
   pull_request:
     branches:
-    - "release"
+    - "main"
 
 jobs:
   build:
