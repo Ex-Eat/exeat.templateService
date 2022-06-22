@@ -16,7 +16,6 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    console.log(appController.isAlive())
     it('should return "Hey, ' + config.APP_NAME + ' is alive."', async () => {
       expect(await appController.isAlive()).toBe('Hey, ' + config.APP_NAME + ' is alive.');
     });
